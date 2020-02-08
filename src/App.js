@@ -3,9 +3,17 @@ import logo from './logo.svg';
 import './App.css';
 import SectionType1 from './SectionType1';
 
+// Material UI Components
+// material-ui.com
+// https: 
+import Box from "@material-ui/core/Box";
+import Container from "@material-ui/core/Container";
+import Grid from "@material-ui/core/Grid";
+
+
 function App() {
   return (
-    <div className="App">
+    <Container className="App">
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <h1>
@@ -32,12 +40,7 @@ function App() {
            / SectionType1>
 
       </header>
-
-      < SectionType1 value="20">
-        if ur reading this its the children??
-        </ SectionType1>
-
-    </div>
+    </Container>
   );
 }
 
